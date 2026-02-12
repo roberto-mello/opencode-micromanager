@@ -28,7 +28,7 @@ cp .micromanager.jsonc .micromanager.jsonc
 2. Set your editor (must support a "wait" flag):
 
 ```bash
-export EDITOR='codium -w'   # or 'code -w', 'subl -w', 'vim', 'nano', etc.
+export EDITOR='codium -w'   # or 'code -w', 'subl -w', 'zed --wait', etc.
 ```
 
 3. Start OpenCode:
