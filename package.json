@@ -1,0 +1,19 @@
+{
+  "name": "opencode-micromanager",
+  "version": "1.0.0",
+  "description": "OpenCode plugin for intercepting and managing LLM interactions",
+  "scripts": {
+    "build": "bun build .opencode/plugins/message-interceptor.ts --outdir=.opencode/dist --target=node"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "bun-types": "latest"
+  },
+  "type": "module",
+  "keywords": ["opencode", "plugin", "micromanager", "interceptor"],
+  "author": "",
+  "license": "MIT"
+}

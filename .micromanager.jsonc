@@ -1,0 +1,14 @@
+{
+  "logLevel": "info",
+  "enableEditor": true,
+  "autoEdit": true,
+  // Override the editor command (defaults to $EDITOR env var, then "code -w")
+  // Must be a GUI editor with a wait flag -- terminal editors won't work in the TUI
+  // "editor": "codium -w",
+  // Show the system prompt (instructions, rules, agent config) in the editor view
+  "showSystemMessages": true,
+  // Which conversation roles to include in the message history section:
+  //   "user"      - your messages to the LLM
+  //   "assistant" - the LLM's responses
+  "messageTypes": ["user", "assistant"]
+}
